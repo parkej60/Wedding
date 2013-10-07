@@ -11,5 +11,8 @@
         "_default": {
             "link": "Wedding"
         }
+    }, 
+    "global": {
+        "parseVersion": "1.2.12"
     }
 }
