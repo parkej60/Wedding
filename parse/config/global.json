@@ -1,0 +1,15 @@
+{
+    "applications": {
+        "Wedding": {
+            "applicationId": "qNDrj5AOmYdjW7JtevJGnm0n7MH7h1twLk96dXqJ", 
+            "masterKey": "Bhk3gnzuNM46zbboLyfSpe9YghCmCp20uh0xC5oU"
+        }, 
+        "WeddingDev": {
+            "applicationId": "6YaTbTi1WeLB5t2TGTJzaF1pJqMoDf2imMe6Dj9l", 
+            "masterKey": "0d7dRS8eQPURZEZLiO5fPv3AXUlfq7STzUJqujKH"
+        }, 
+        "_default": {
+            "link": "Wedding"
+        }
+    }
+}
