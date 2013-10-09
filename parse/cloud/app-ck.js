@@ -1,0 +1,2 @@
+// These two lines are required to initialize Express in Cloud Code.
+var express=require("express"),expressLayouts=require("cloud/express-layouts"),app=express();app.set("views","cloud/views");app.set("view engine","ejs");app.use(expressLayouts);app.use(express.bodyParser());app.get("/",function(e,t){t.render("index",{title:"Maduscha / Parker Wedding",message:"Coming Soon!"})});app.listen();
