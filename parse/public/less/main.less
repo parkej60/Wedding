@@ -1,3 +1,8 @@
+@updateIconWidth: 51px;
+@updateIconHeight: 50px;
+@updateIconSpacing: 5px;
+@updateIconIncrement: @updateIconWidth + @updateIconSpacing;
+
 body
 {
 	background-image: url('/images/witewall_3.png');
@@ -6,15 +11,47 @@ body
 
 #main-image
 {
-	position:relative;
-	bottom:30px;
+	
 }
 h1{
 	color:#bdae94;
 	font-family: "raleway";
-	font-weight:100;
+	
+}
+h2
+{
+	color:#bdae94;
+	font-family: "raleway";
+	
+	padding-bottom:5px;
+	border-bottom:1px solid #bdae94;
+}
+h3
+{
+	color:#bdae94;
+	font-family: "raleway";
+	font-weight: bold;
+	font-size:20px;
+}
+.cast-crew
+{
+	p{ color:#bdae94;}
+
+	.media
+	{
+		margin-bottom:20px;
+	}
 }
 
+
+.mobile-date
+{
+	padding-left:20px;
+}
+.navbar-toggle
+{
+	background-color:#f1f1f1;
+}
 .navbar-default .navbar-nav > li > a,
 .navbar-brand
 {
@@ -38,6 +75,10 @@ h1{
 {
 	color:#fff;
 }
+#main-header
+{
+	display:none;
+}
 
 @media (min-width: 768px) {
   h1 {
@@ -49,11 +90,16 @@ h1{
     top: 40px;
     right: 40px;
     text-align:right;
+    display:block;
 
     img{
     	float:right;
     }
 
+  }
+  .mobile-date
+  {
+  	display:none;
   }
 }
 @media (min-width: 992px) {
@@ -66,12 +112,43 @@ h1{
     top: 80px;
     right: 40px;
     text-align:right;
+    display:block;
 
     img{
     	float:right;
     }
 
   }
+  .mobile-date
+  {
+  	display:none;
+  }
+}
+
+
+.updates
+{
+	.icon
+	{
+		background:url('/images/update_sprite.png');
+		width:@updateIconWidth;
+		height:@updateIconHeight;
+		background-repeat: no-repeat;
+		border:1px solid #fff;
+	}
+	.media
+	{
+		margin-bottom:5px;
+	}
+	.media-body
+	{
+		margin-top:15px;
+	}
+	.castle
+	{
+
+		background-position:-4 * @updateIconIncrement -4 * @updateIconIncrement;
+	}
 }
 
 
