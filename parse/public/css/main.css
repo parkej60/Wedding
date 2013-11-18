@@ -104,3 +104,15 @@ h3 {
 .updates .castle {
   background-position: -224px -224px;
 }
+.updates .church {
+  background-position: -224px 0px;
+}
+.updates .bride {
+  background-position: -112px -224px;
+}
+.updates .dress {
+  background-position: -168px -224px;
+}
+.updates .default {
+  background-position: -168px -112px;
+}
