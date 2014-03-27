@@ -108,11 +108,14 @@ h3 {
   background-position: -224px 0px;
 }
 .updates .bride {
-  background-position: -112px -224px;
+  background-position: -224px -112px;
 }
 .updates .dress {
   background-position: -168px -224px;
 }
 .updates .default {
   background-position: -168px -112px;
+}
+.updates .groom {
+  background-position: -280px -112px;
 }
